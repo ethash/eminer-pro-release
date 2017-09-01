@@ -1,0 +1,2 @@
+# eminer-release
+ethash miner
