@@ -1,5 +1,8 @@
-# eminer ethash miner
-Optimized, high performance multiworker ethash miner. 
+# Eminer ethash miner
+Optimized, high performance multiworker ethash miner written in Go language
+
+### Dashboard
+![dashboard](https://raw.githubusercontent.com/ethash/eminer-release/master/dashboard.png)
 
 ## Features
 - Fully support AMD and NVIDIA OpenCL devices
@@ -52,7 +55,5 @@ Dual mining; it has negative profit sometimes, more power consumption and more G
 ### Donations ETH/ETC
 0x4e6f8135f909a943344f065a9ec2bedcc14c750d
 
-```
 The miner has 1% devfee, it never change for new features but you can disable anytime.
-```
 
