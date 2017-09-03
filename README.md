@@ -46,6 +46,8 @@ Usage:
 $ eminer -h
 ```
 
+Run eminer and & view the dashboard at `http://localhost:8550`
+
 ## TODO
 - Alarms and more statistics
 
