@@ -49,8 +49,8 @@ $ eminer -h
 Run eminer and & view the dashboard at `http://localhost:8550`
 
 ### JSON-API Endpoints
-- GET /api/v1/stats
-- GET /api/v1/chartData
+`GET /api/v1/stats`
+`GET /api/v1/chartData`
 
 ## TODO
 - Alarms and more statistics
