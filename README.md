@@ -1,5 +1,5 @@
 # Eminer ethash miner
-Optimized, high performance multiworker ethash miner written in Go language
+Optimized, high performance multiworker ethash miner written in Go language.
 
 ### Dashboard
 ![dashboard](https://raw.githubusercontent.com/ethash/eminer-release/master/dashboard.png)
