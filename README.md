@@ -54,6 +54,8 @@ Run eminer and & view the dashboard at `http://localhost:8550`
 
 ## TODO
 - Alarms and more statistics
+- Better support hardware management
+- Cloud dashboard for all rigs
 
 ## Works 
 Dual mining; it has negative profit sometimes, more power consumption and more GPU temperature. Current status, more research and more test.
