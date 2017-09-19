@@ -54,30 +54,36 @@ Usage of eminer:
   -B int
     	Benchmark mode, set device id for benchmark (default -1)
   -F string
-    	Farm mode with the work server at URL, use comma for multiple rpc server (default "http://127.0.0.1:8545")
+    	Farm mode with the work server at URL, use comma for multiple rpc server 
+      (default "http://127.0.0.1:8545")
   -L	List GPU devices
   -M string
     	Run mine on selected devices, use comma for multiple devices (default "all")
   -N string
-    	Name of your rig, the name will be use on dashboard, json-api, cloud service and stathat. Some pools require rig name with extra parameter, this name will be send the pools.
+    	Name of your rig, the name will be use on dashboard, json-api, cloud service and stathat. 
+      Some pools require rig name with extra parameter, this name will be send the pools.
   -P string
     	Password for stratum server
   -S <host>:<port>
-    	Stratum mode, use comma for multiple stratum server (example: <host>:<port> for nicehash or other stratum servers stratum+tcp://<host>:<port>)
+    	Stratum mode, use comma for multiple stratum server (example: <host>:<port> 
+      for nicehash or other stratum servers stratum+tcp://<host>:<port>)
   -U string
     	Username for stratum server
   -V int
     	Log level (0-5) (default 3)
   -cloud-key string
-    	Set your cloud service key here to have stats about the rig from https://cloud.eminer.net, you can create free key from the web site and use the same key for all your rigs.
+    	Set your cloud service key here to have stats about the rig from https://cloud.eminer.net, 
+      you can create free key from the web site and use the same key for all your rigs.
   -cpu int
     	Set the maximum number of CPUs to use
   -dag-intensity int
     	DAG work size intensity (4-32) (default 32)
   -devfee-coin string
-    	Set devfee default coin, it may reduce DAG changes. Usable coins: ETH, ETC, UBQ, EXP, MUSIC
+    	Set devfee default coin, it may reduce DAG changes. 
+      Usable coins: ETH, ETC, UBQ, EXP, MUSIC
   -fan-percent string
-    	Set fan speed percent on selected devices, use comma for multiple devices (amd devices only)
+    	Set fan speed percent on selected devices, 
+      use comma for multiple devices (amd devices only)
   -fixed-diff
     	Fixed diff for works, round solutions
   -http string
@@ -85,7 +91,8 @@ Usage of eminer:
   -intensity string
     	GPU work size intensity (8-64), use comma for multiple devices (default 32)
   -kernel string
-    	Select kernel for GPU devices, currently 3 kernels available, use comma for multiple devices (1-3)
+    	Select kernel for GPU devices, currently 3 kernels available, 
+      use comma for multiple devices (1-3)
   -no-devfee
     	Disable devfee, this can be impact some performance reduces
   -no-output-color
