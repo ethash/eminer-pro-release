@@ -20,6 +20,9 @@ And much more.
 
 **Multiworker Mode** (windows only); search shares with multiple instances, this can be increase **1% ~ 2%** share luck.
 
+**Cloud Dashboard** 
+Screenshots: https://imgur.com/a/gwXBe
+
 ## Running
 List Devices:
 ```
