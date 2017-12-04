@@ -1,0 +1,13 @@
+setx GPU_FORCE_64BIT_PTR 0
+setx GPU_MAX_HEAP_SIZE 100
+setx GPU_USE_SYNC_OBJECTS 1
+setx GPU_MAX_ALLOC_PERCENT 100
+setx GPU_SINGLE_ALLOC_PERCENT 100
+
+#uncomment next two lines for pirl, make wallet first and insert below
+#for pirl coin.@ pirl.io , get wallet @ https://wallet.pirl.io/
+eminer.exe -S pirl.cryptopools.info:8002 -U pirlwallet -P x --cloud-key GENERATE_AT_CLOUD.EMINER.NET -intensity 48 -N Rigname
+
+#uncomment next two lines for ella, make wallet first and insert below
+#for pirl coin.@ pirl.io , get wallet @ https://ellaism.github.io/ellawallet/
+#eminer.exe -S ella.cryptopools.info:9002 -U ellawallet -P x --cloud-key GENERATE_AT_CLOUD.EMINER.NET -intensity 48 -N Rigname
